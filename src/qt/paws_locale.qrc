@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/paws_bg.qm</file>
+        <file alias="ca">locale/paws_ca.qm</file>
+        <file alias="cs">locale/paws_cs.qm</file>
+        <file alias="da">locale/paws_da.qm</file>
+        <file alias="de">locale/paws_de.qm</file>
+        <file alias="en">locale/paws_en.qm</file>
+        <file alias="en_US">locale/paws_en_US.qm</file>
+        <file alias="es">locale/paws_es.qm</file>
+        <file alias="fi">locale/paws_fi.qm</file>
+        <file alias="fr_FR">locale/paws_fr_FR.qm</file>
+        <file alias="hr">locale/paws_hr.qm</file>
+        <file alias="it">locale/paws_it.qm</file>
+        <file alias="ja">locale/paws_ja.qm</file>
+        <file alias="ko_KR">locale/paws_ko_KR.qm</file>
+        <file alias="nl">locale/paws_nl.qm</file>
+        <file alias="pl">locale/paws_pl.qm</file>
+        <file alias="pt">locale/paws_pt.qm</file>
+        <file alias="pt_BR">locale/paws_pt_BR.qm</file>
+        <file alias="ro_RO">locale/paws_ro_RO.qm</file>
+        <file alias="ru">locale/paws_ru.qm</file>
+        <file alias="sk">locale/paws_sk.qm</file>
+        <file alias="sv">locale/paws_sv.qm</file>
+        <file alias="tr">locale/paws_tr.qm</file>
+        <file alias="uk">locale/paws_uk.qm</file>
+        <file alias="zh_CN">locale/paws_zh_CN.qm</file>
+        <file alias="zh_TW">locale/paws_zh_TW.qm</file>
+    </qresource>
+</RCC>

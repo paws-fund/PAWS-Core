@@ -1,1 +1,1 @@
-# PAWS-Core
+PAWS Core repository

@@ -1,0 +1,26 @@
+[Unit]
+Description=PAWS's distributed currency daemon
+After=network.target
+
+[Service]
+User=paws
+Group=paws
+
+Type=forking
+PIDFile=/var/lib/pawsd/pawsd.pid
+
+ExecStart=/usr/bin/pawsd -daemon -pid=/var/lib/pawsd/pawsd.pid \
+          -conf=/etc/paws/paws.conf -datadir=/var/lib/pawsd
+
+ExecStop=-/usr/bin/paws-cli -conf=/etc/paws/paws.conf \
+         -datadir=/var/lib/pawsd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
