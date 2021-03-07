@@ -139,13 +139,12 @@ function update_config() {
   sed -i 's/daemon=1/daemon=1/' $CONFIGFOLDER/$CONFIG_FILE
   cat << EOF >> $CONFIGFOLDER/$CONFIG_FILE
 logintimestamps=1
-maxconnections=256
+maxconnections=500
 bind=$BINDIP
 masternode=1
 externalip=$NODEIP:$COIN_PORT
 masternodeprivkey=$COINKEY
-
-#ADDNODES
+# addnodes
 addnode=164.68.110.103:18765
 addnode=164.68.111.75:18765
 addnode=116.203.156.64:18765
@@ -153,6 +152,18 @@ addnode=159.69.190.7:18765
 addnode=95.216.164.118:18765
 addnode=116.202.26.146:18765
 addnode=164.68.106.143:18765
+addnode=95.111.226.176:18765
+whitelist=185.147.75.96/28
+addnode=185.147.75.100
+addnode=185.147.75.101
+addnode=185.147.75.102
+addnode=185.147.75.103
+addnode=185.147.75.104
+addnode=185.147.75.105
+addnode=185.147.75.106
+addnode=185.147.75.107
+addnode=185.147.75.108
+addnode=185.147.75.109
 EOF
 }
 
